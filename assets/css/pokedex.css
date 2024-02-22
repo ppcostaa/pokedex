@@ -1,7 +1,62 @@
+.bug {
+    background-color: rgb(27, 155, 27);
+}
+.dark {
+    background-color: rgb(34, 31, 31);
+}
+.dragon {
+    background-color: rgb(85, 137, 170);
+}
+.eletric{
+    background-color: rgb(245, 245, 118);
+}
+.fairy{
+    background-color: rgb(255, 108, 211);
+}
+.fighting{
+    background-color: rgb(255, 68, 0);
+}
+.fire{
+    background-color: rgb(255, 66, 66);
+}
+.flying{
+    background-color:rgb(179, 253, 253);
+}
+.ghost{
+    background-color:rgb(75, 45, 75);
+}
+.grass{
+    background-color: #49D1A0;
+}
+.ground{
+    background-color: rgb(121, 68, 40);
+}
+.ice{
+    background-color: rgb(57, 248, 255);
+}
+.normal{
+    background-color: rgb(153, 153, 153);
+}
+.poison{
+    background-color: rgb(145, 27, 145);
+}
+.psychic{
+    background-color: rgb(255, 85, 184);
+}
+.rock{
+    background-color: rgb(109, 77, 77);
+}
+.steel{
+    background-color: rgb(129, 129, 129);
+}
+.water{
+    background-color: rgb(83, 129, 255);
+}
+
+
 .pokemon {
     margin: 0.5rem;
     padding: 1rem;
-    background-color: #49D1A0;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -46,8 +101,6 @@
 }
 
 .pokemon .detail .types .type {
-    background-color: #59eeb7;
-    color: white;
     padding: 0.5rem 1rem;
     font-size: .625rem;
     margin: 0.25rem 0;
